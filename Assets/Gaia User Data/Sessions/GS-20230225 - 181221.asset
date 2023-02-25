@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e251860fcd970734c9f14ebd98a146c3, type: 3}
+  m_Name: GS-20230225 - 181221
+  m_EditorClassIdentifier: 
+  m_name: Session 20230225-181221
+  m_description: 'Rocking out at Creativity Central!
+
+
+    If you like Gaia please
+    consider rating it :)'
+  m_previewImage: {fileID: 0}
+  m_dateCreated: 2/25/2023 6:12:21 PM
+  m_terrainWidth: 2048
+  m_terrainDepth: 1000
+  m_terrainHeight: 2048
+  m_seaLevel: 24.414062
+  m_spawnDensity: 0.6
+  m_isLocked: 0
+  m_previewImageBytes: 
+  m_previewImageWidth: 0
+  m_previewImageHeight: 0
+  m_operations:
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 2/25/2023 6:15:28 PM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 1
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 2048'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230225 - 181528
+    m_operationDateTime: 2/25/2023 6:15:28 PM
+    scriptableObjectAssetGUID: eba1cb5667fbe684e8d2255a817a0a58
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230225 - 181528
+    m_operationDateTime: 2/25/2023 6:15:45 PM
+    scriptableObjectAssetGUID: 2c2d64a559678c148bbe891dbe62d79e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Updating World To: 1 x 1 tiles, tile size: 2048'
+    m_operationType: 14
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 2/25/2023 6:22:44 PM
+    scriptableObjectAssetGUID: f320f26b767059c4fadeb0b4aa593c06
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  m_terrainMinMaxCache:
+  - guid: Worldmap
+    isWorldmap: 1
+    recalculate: 0
+    min: 6.2232857
+    max: 101.83529
+  - guid: 9197079a9b13be042b39d05ca92c5cf4
+    isWorldmap: 0
+    recalculate: 0
+    min: 0
+    max: 191.68382
+  m_bakedMaskCacheEntries:
+  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_12
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_12
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_12
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerTree_3584_5
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerTree_3584_5
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerTree_3584_5
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_5
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_5
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_5
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_0.5
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_0.5
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_0.5
+    texture: {fileID: 0}
+  m_worldBiomeMaskSettings: {fileID: 0}
