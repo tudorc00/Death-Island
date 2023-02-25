@@ -106,16 +106,16 @@ MonoBehaviour:
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
   m_terrainMinMaxCache:
-  - guid: Worldmap
-    isWorldmap: 1
-    recalculate: 0
-    min: 6.2232857
-    max: 101.83529
   - guid: 9197079a9b13be042b39d05ca92c5cf4
     isWorldmap: 0
     recalculate: 0
     min: 0
     max: 191.68382
+  - guid: Worldmap
+    isWorldmap: 1
+    recalculate: 0
+    min: 0
+    max: 0
   m_bakedMaskCacheEntries:
   - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_12
     assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
@@ -164,6 +164,12 @@ MonoBehaviour:
       - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_1.5
     fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
       - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_1.5
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_1
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_1
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_1
     texture: {fileID: 0}
   - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_0.5
     assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225

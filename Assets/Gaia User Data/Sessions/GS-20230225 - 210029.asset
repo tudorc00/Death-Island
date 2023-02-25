@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e251860fcd970734c9f14ebd98a146c3, type: 3}
+  m_Name: GS-20230225 - 210029
+  m_EditorClassIdentifier: 
+  m_name: Session 20230225-210029
+  m_description: 'Rocking out at Creativity Central!
+
+
+    If you like Gaia please
+    consider rating it :)'
+  m_previewImage: {fileID: 0}
+  m_dateCreated: 2/25/2023 9:00:29 PM
+  m_terrainWidth: 2048
+  m_terrainDepth: 2048
+  m_terrainHeight: 1000
+  m_seaLevel: 28
+  m_spawnDensity: 0.6
+  m_isLocked: 0
+  m_previewImageBytes: 
+  m_previewImageWidth: 0
+  m_previewImageHeight: 0
+  m_operations: []
+  m_terrainMinMaxCache:
+  - guid: 9197079a9b13be042b39d05ca92c5cf4
+    isWorldmap: 0
+    recalculate: 0
+    min: 0
+    max: 191.68382
+  m_bakedMaskCacheEntries: []
+  m_worldBiomeMaskSettings: {fileID: 0}
