@@ -23,7 +23,7 @@ MonoBehaviour:
   m_terrainWidth: 2048
   m_terrainDepth: 1000
   m_terrainHeight: 2048
-  m_seaLevel: 24.414062
+  m_seaLevel: 28
   m_spawnDensity: 0.6
   m_isLocked: 0
   m_previewImageBytes: 
@@ -72,6 +72,39 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (12)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230225 - 181528
+    m_operationDateTime: 2/25/2023 6:37:30 PM
+    scriptableObjectAssetGUID: 1ad822425200a9646928d0bfee00d5f3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230225 - 181528
+    m_operationDateTime: 2/25/2023 6:38:01 PM
+    scriptableObjectAssetGUID: 448a5552c783e0d49954d38389e116f5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (11)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230225 - 181528
+    m_operationDateTime: 2/25/2023 6:38:56 PM
+    scriptableObjectAssetGUID: 8d313955ccf888d4aa8a1ef7159a76ce
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: Worldmap
     isWorldmap: 1
@@ -96,16 +129,58 @@ MonoBehaviour:
     fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
       - 181528/Terrain_0_0-20230225 - 181528_LayerTree_3584_5
     texture: {fileID: 0}
-  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_5
+  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_2.5
     assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
-      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_5
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_2.5
     fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
-      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_5
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_2.5
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_2560_-0.5
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_2560_-0.5
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_2560_-0.5
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_512_2
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_512_2
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_512_2
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_2
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_2
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_2
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerTree_3584_-0.2
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerTree_3584_-0.2
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerTree_3584_-0.2
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_1.5
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_1.5
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_1.5
     texture: {fileID: 0}
   - fileName: Terrain_0_0-20230225 - 181528_LayerGameObject_3584_0.5
     assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
       - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_0.5
     fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
       - 181528/Terrain_0_0-20230225 - 181528_LayerGameObject_3584_0.5
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerTree_1024_0
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerTree_1024_0
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerTree_1024_0
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20230225 - 181528_LayerTree_2048_0
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerTree_2048_0
+    fullPath: D:/Unity Projects/Death Island/Death-Island/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20230225
+      - 181528/Terrain_0_0-20230225 - 181528_LayerTree_2048_0
     texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}
