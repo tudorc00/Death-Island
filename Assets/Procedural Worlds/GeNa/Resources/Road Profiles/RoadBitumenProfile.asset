@@ -62,20 +62,20 @@ MonoBehaviour:
     m_maskMapAOEnabled: 1
     m_maskMapHeightEnabled: 1
     m_maskMapSmoothnessEnabled: 1
-    m_maskMapMetallic: 0.14
-    m_maskMapAO: 1
+    m_maskMapMetallic: 0.01
+    m_maskMapAO: 0.37
     m_maskMapHeight: 2
-    m_maskMapSmoothness: 2
+    m_maskMapSmoothness: 1.7
     m_MaskMapMod: {x: 1, y: 1, z: 1, w: 1}
     m_surfaceBlend: 0
     m_surfaceBlendPower: 1
     m_terrainLODOffset: 4
     m_terrainLODDistance: 2000
-    m_middleTrackPosition: 0
+    m_middleTrackPosition: 0.215
     m_middleTrackRange: 1
-    m_heightContrast: 0.322
-    m_heightTransition: 0.97
-    m_edgeBlend: 0
+    m_heightContrast: 0.289
+    m_heightTransition: 1.24
+    m_edgeBlend: 0.684
     m_edgeBlendPower: 44.2
     m_roadShape: 0
     m_doubleTrackPosition: 13.1
@@ -83,8 +83,8 @@ MonoBehaviour:
     m_doubleTrackRoads: 0
     m_uvTiling: {x: 1.1, y: 1}
     m_scaleFromCenter: 1
-    m_blendWithGround: 0.429
-    m_inGroundPush: 0.987
+    m_blendWithGround: 0.416
+    m_inGroundPush: 0.893
     m_noise:
       m_enabled: 0
       m_noiseFalloff:
