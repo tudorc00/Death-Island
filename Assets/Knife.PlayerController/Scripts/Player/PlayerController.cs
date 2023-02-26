@@ -300,6 +300,7 @@ namespace KnifePlayerController
 
             if (Input.GetKeyDown(KeyCode.LeftControl) && !freezeControl)
             {
+                Crouch(true);
                 isCrouching = true;
 
                 if (CrouchEvent != null)
@@ -310,6 +311,7 @@ namespace KnifePlayerController
 
             if ((Input.GetKeyUp(KeyCode.LeftControl) && !freezeControl) || (Input.GetKey(KeyCode.LeftControl) && freezeControl && isCrouching))
             {
+                Crouch(false);
                 isCrouching = false;
 
                 if (damageHandler.Health.RealIsAlive)
@@ -354,9 +356,7 @@ namespace KnifePlayerController
             {
                 if (Input.GetKeyDown(KeyCode.Space) && !isCrouching && !freezeControl)
                 {
-                    playerVelocity.y = JumpSpeed;
-                    if (JumpStartEvent != null)
-                        JumpStartEvent();
+                    Jump();
                 }
                 controller.Move(playerVelocity * Time.fixedDeltaTime);
             }
@@ -482,7 +482,10 @@ namespace KnifePlayerController
                     return;
 
                 // LookRotation(Input.GetAxis(AxisXName) * XSensitivity * SensivityMultiplier, Input.GetAxis(AxisYName) * YSensitivity * SensivityMultiplier, deltaTime);
-                LookRotation(direction.x * XSensitivity * SensivityMultiplier, direction.y * YSensitivity * SensivityMultiplier, deltaTime);
+                if (Mathf.Abs(direction.x) > 0.3f || Mathf.Abs(direction.y) > 0.3f)
+                {
+                    LookRotation(direction.x * XSensitivity * SensivityMultiplier, direction.y * YSensitivity * SensivityMultiplier, deltaTime);
+                }
             }
 
             public void LookRotation(float yRot, float xRot, float deltaTime)
@@ -524,9 +527,36 @@ namespace KnifePlayerController
             }
 
         }
+
+        public void Crouch(bool crouching)
+        {
+            isCrouching = crouching;
+
+            if (CrouchEvent != null && isCrouching)
+            {
+                CrouchEvent();
+            }
+
+            if (damageHandler.Health.RealIsAlive && !isCrouching)
+            {
+                if (StandUpEvent != null)
+                {
+                    StandUpEvent();
+                }
+            }
+        }
+
+        public void Jump()
+        {
+            if (controller.isGrounded)
+            {
+                playerVelocity.y = JumpSpeed;
+                if (JumpStartEvent != null)
+                    JumpStartEvent();
+            }
+        }
     }
 
     public class PlayerFreezeChangedEvent : UnityEvent<bool>
     { }
-
 }

@@ -80,39 +80,38 @@ namespace KnifePlayerController
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    PickupableItem pickupableItem = currentAction as PickupableItem;
-                    if(pickupableItem != null)
-                    {
-                        Type itemType = pickupableItem.GetItemType();
-                        BaseItem item = PlayerInventory.GetItem(itemType);
-
-                        if (item == null || item.CanAdd())
-                        {
-                            PlayerInventory.AddItem(pickupableItem.PickupItem());
-                        }
-                    }
-                    else
-                    {
-                        currentAction.UseStart();
-                    }
+                    PickUp();
                 }
-            }
 
-            if (currentAction != null)
-            {
                 if (Input.GetKey(KeyCode.E))
                 {
                     currentAction.UseUpdate();
                 }
-            }
 
-            if (currentAction != null)
-            {
                 if (Input.GetKeyUp(KeyCode.E))
                 {
                     currentAction.UseEnd();
                     currentAction = null;
                 }
+            }
+        }
+
+        public void PickUp()
+        {
+            PickupableItem pickupableItem = currentAction as PickupableItem;
+            if (pickupableItem != null)
+            {
+                Type itemType = pickupableItem.GetItemType();
+                BaseItem item = PlayerInventory.GetItem(itemType);
+
+                if (item == null || item.CanAdd())
+                {
+                    PlayerInventory.AddItem(pickupableItem.PickupItem());
+                }
+            }
+            else
+            {
+                currentAction.UseStart();
             }
         }
     }

@@ -133,31 +133,31 @@ namespace KnifePlayerController
 
         void showItem(PickupableItem item)
         {
-            RectTransform itemUIRoot = Instantiate(ItemUITemplate, ItemUITemplate.parent);
-            PickupableItemUI itemUI = new PickupableItemUI(itemUIRoot);
+            // RectTransform itemUIRoot = Instantiate(ItemUITemplate, ItemUITemplate.parent);
+            // PickupableItemUI itemUI = new PickupableItemUI(itemUIRoot);
 
-            showedItems.Add(item, itemUI);
-            itemUI.SetFraction(0f);
-            itemUI.SetPickupable(false);
+            // showedItems.Add(item, itemUI);
+            // itemUI.SetFraction(0f);
+            // itemUI.SetPickupable(false);
         }
 
         void updateItem(PickupableItem item, PickupableItemUI itemUI)
         {
-            Vector3 screenPosition = PlayerCamera.WorldToScreenPoint(item.GetComponent<Collider>().bounds.center);
-            itemUI.SetScreenPosition(screenPosition);
-            itemUI.CanDestroy = true;
+            // Vector3 screenPosition = PlayerCamera.WorldToScreenPoint(item.GetComponent<Collider>().bounds.center);
+            // itemUI.SetScreenPosition(screenPosition);
+            // itemUI.CanDestroy = true;
         }
 
         void hideItem(PickupableItem item)
         {
-            PickupableItemUI itemUI;
+            // PickupableItemUI itemUI;
 
-            if(showedItems.TryGetValue(item, out itemUI))
-            {
-                itemUI.DestroyUI();
-            }
+            // if(showedItems.TryGetValue(item, out itemUI))
+            // {
+            //     itemUI.DestroyUI();
+            // }
 
-            showedItems.Remove(item);
+            // showedItems.Remove(item);
         }
 
         [System.Serializable]
