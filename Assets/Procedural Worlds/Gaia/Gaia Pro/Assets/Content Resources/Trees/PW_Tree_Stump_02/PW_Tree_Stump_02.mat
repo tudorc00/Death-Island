@@ -21,7 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PW_Tree_Stump_02
-  m_Shader: {fileID: -6465566751694194690, guid: 896c4566c534d544085eac02e8d305d9, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 896c4566c534d544085eac02e8d305d9,
+    type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _ALPHATEST_OFF
@@ -31,7 +32,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2255
   stringTagMap: {}
   disabledShaderPasses:
   - TransparentDepthPrepass
@@ -192,7 +193,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffusionProfile_Asset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38, a: 6.8169325e-31}
+    - _DiffusionProfile_Asset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38,
+        a: 6.8169325e-31}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _PW_CoverLayer0Color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
