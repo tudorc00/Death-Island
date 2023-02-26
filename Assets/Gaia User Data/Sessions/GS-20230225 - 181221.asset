@@ -23,7 +23,7 @@ MonoBehaviour:
   m_terrainWidth: 2048
   m_terrainDepth: 1000
   m_terrainHeight: 2048
-  m_seaLevel: 28
+  m_seaLevel: 28.7
   m_spawnDensity: 0.6
   m_isLocked: 0
   m_previewImageBytes: 
