@@ -40,6 +40,6 @@ MonoBehaviour:
     isWorldmap: 1
     recalculate: 0
     min: 6.2232857
-    max: 101.83529
+    max: 101.70989
   m_bakedMaskCacheEntries: []
   m_worldBiomeMaskSettings: {fileID: 0}
