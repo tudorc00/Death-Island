@@ -239,11 +239,11 @@ namespace KnifePlayerController
 
         void move()
         {
-            // float h = Input.GetAxis(StrafeAxis);
-            // float v = Input.GetAxis(ForwardAxis);
+             float h = Input.GetAxis(StrafeAxis);
+             float v = Input.GetAxis(ForwardAxis);
 
-            float h = moveVariableJoystick.Direction.x;
-            float v = moveVariableJoystick.Direction.y;
+          //  float h = moveVariableJoystick.Direction.x;
+          //  float v = moveVariableJoystick.Direction.y;
 
             if (freezeControl)
             {
@@ -481,8 +481,8 @@ namespace KnifePlayerController
                 if (!Enabled)
                     return;
 
-                // LookRotation(Input.GetAxis(AxisXName) * XSensitivity * SensivityMultiplier, Input.GetAxis(AxisYName) * YSensitivity * SensivityMultiplier, deltaTime);
-                LookRotation(direction.x * XSensitivity * SensivityMultiplier, direction.y * YSensitivity * SensivityMultiplier, deltaTime);
+                 LookRotation(Input.GetAxis(AxisXName) * XSensitivity * SensivityMultiplier, Input.GetAxis(AxisYName) * YSensitivity * SensivityMultiplier, deltaTime);
+               // LookRotation(direction.x * XSensitivity * SensivityMultiplier, direction.y * YSensitivity * SensivityMultiplier, deltaTime);
             }
 
             public void LookRotation(float yRot, float xRot, float deltaTime)
