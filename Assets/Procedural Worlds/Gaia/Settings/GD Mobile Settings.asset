@@ -23,7 +23,7 @@ MonoBehaviour:
   m_draw: 1
   m_detailDistance: 50
   m_detailDensity: 0.2
-  m_treeDistance: 100
+  m_treeDistance: 50
   m_billboardStart: 50
   m_fadeLength: 20
   m_maxMeshTrees: 20
@@ -34,8 +34,8 @@ MonoBehaviour:
   m_terrainSize: 2048
   m_terrainHeight: 1000
   m_spawnDensity: 0.6
-  m_heightmapResolution: 513
-  m_detailResolution: 512
+  m_heightmapResolution: 256
+  m_detailResolution: 256
   m_detailResolutionPerPatch: 16
   m_controlTextureResolution: 512
   m_baseMapSize: 512

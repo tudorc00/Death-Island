@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
 --- !u!114 &-7794773001607468929
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eb4b772797da9440885e8bd939e9560, type: 3}
   m_Name: ColorCurves
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   master:
     m_OverrideState: 0
     m_Value:
@@ -402,21 +402,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 291.1
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 30
+    m_Value: 552.9
   gaussianMaxRadius:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.5
   highQualitySampling:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   focusDistance:
     m_OverrideState: 1
@@ -468,15 +468,15 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   skipIterations:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 4
   dirtTexture:
-    m_OverrideState: 0
-    m_Value: {fileID: 2800000, guid: 09cba7a618531d845bb6fd03b1810bc1, type: 3}
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: eddfce80054f26b4698b8df4c7d0071c, type: 3}
     dimension: 1
   dirtIntensity:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 5
 --- !u!114 &2922217570338942956
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -520,19 +520,19 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 0.5
   contrast:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 7
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
-    m_OverrideState: 1
-    m_Value: 0
+    m_OverrideState: 0
+    m_Value: 14
   saturation:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 17
 --- !u!114 &4847178672097279951
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -676,11 +676,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 0
   shadows:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
   highlights:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.6132076, g: 0.5711247, b: 0.4830456, a: 1}
   balance:
     m_OverrideState: 0
     m_Value: 0

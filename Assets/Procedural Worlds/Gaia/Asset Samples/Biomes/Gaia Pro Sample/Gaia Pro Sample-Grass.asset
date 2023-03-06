@@ -159,13 +159,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PW_Detail_WildGrass_34390_26048_27952_37026_29506
-  m_Shader: {fileID: 4800000, guid: 72462e7bb7591b4418a705a37fe544ac, type: 3}
-  m_ValidKeywords: []
+  m_Shader: {fileID: -6465566751694194690, guid: 00efb9683d88ef54f91cfd4c0e362b1b,
+    type: 3}
+  m_ValidKeywords:
+  - _PW_SF_WIND_ON
   m_InvalidKeywords:
-  - _ALPHATEST_ON
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
-  - _PW_SF_WIND_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
@@ -327,6 +327,7 @@ Material:
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
+    - _Distortion: 10
     - _DistortionBlendMode: 0
     - _DistortionBlurBlendMode: 0
     - _DistortionBlurDstBlend: 1
@@ -391,12 +392,16 @@ Material:
     - _PW_SSSDistortion: 0.5
     - _PW_SSSPower: 1
     - _PW_ShaderID: 0
+    - _Power: 10
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
+    - _Scale: 10
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -445,7 +450,8 @@ Material:
     - _Color: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
     - _ColorA: {r: 1, g: 0.033018887, b: 0.033018887, a: 1}
     - _ColorB: {r: 0.46226418, g: 0.032707367, b: 0.032707367, a: 1}
-    - _DiffusionProfileAsset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38, a: 6.8169325e-31}
+    - _DiffusionProfileAsset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38,
+        a: 6.8169325e-31}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
@@ -458,6 +464,7 @@ Material:
     - _PW_WindTreeFlex: {r: 0.7, g: 0.7, b: 0.06, a: 0}
     - _PW_WindTreeFrequency: {r: 0.01, g: 0.35, b: 2, a: 0}
     - _PW_WindTreeWidthHeight: {r: 0.4, g: 0.8, b: 0, a: 0}
+    - _SSSColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
@@ -473,7 +480,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Flowers PurpleLOD0_34386_26044_27948_37022_29502
-  m_Shader: {fileID: -6465566751694194690, guid: 00efb9683d88ef54f91cfd4c0e362b1b, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 00efb9683d88ef54f91cfd4c0e362b1b,
+    type: 3}
   m_ValidKeywords:
   - _PW_SF_WIND_ON
   m_InvalidKeywords:
@@ -724,7 +732,8 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorA: {r: 1, g: 1, b: 1, a: 0}
     - _ColorB: {r: 1, g: 1, b: 1, a: 0}
-    - _DiffusionProfileAsset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38, a: 6.8169325e-31}
+    - _DiffusionProfileAsset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38,
+        a: 6.8169325e-31}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
@@ -1148,7 +1157,8 @@ Material:
     - _BaseColor: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffusionProfileAsset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38, a: 6.8169325e-31}
+    - _DiffusionProfileAsset: {r: -9.2396434e+33, g: 2.6337685e-36, b: 2.14897e-38,
+        a: 6.8169325e-31}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
