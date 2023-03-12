@@ -7,7 +7,6 @@ namespace KnifePlayerController
     public class PlayerActionHandIcon : MonoBehaviour
     {
         public Image Image;
-        public GameObject equipObject;
 
         [SerializeField]
         private PlayerAction playerAction;
@@ -31,7 +30,6 @@ namespace KnifePlayerController
         private void Update()
         {
             Image.enabled = PlayerAction.NeedShowHand;
-            equipObject.SetActive(PlayerAction.NeedShowHand);
         }
     }
 }

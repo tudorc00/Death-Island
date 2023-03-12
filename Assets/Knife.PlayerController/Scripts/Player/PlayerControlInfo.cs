@@ -47,22 +47,22 @@ namespace KnifePlayerController
 
         void Start()
         {
-            // enableInfo();
+            enableInfo();
         }
 
         void Update()
         {
-            // if (Input.GetKeyDown(KeyCode.Escape))
-            // {
-            //     if (isInfoEnabled)
-            //     {
-            //         disableInfo();
-            //     }
-            //     else
-            //     {
-            //         enableInfo();
-            //     }
-            // }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (isInfoEnabled)
+                {
+                    disableInfo();
+                }
+                else
+                {
+                    enableInfo();
+                }
+            }
         }
 
         void enableInfo()

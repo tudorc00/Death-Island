@@ -52,8 +52,6 @@ namespace KnifePlayerController
         public PlayerHands Hands;
         public PostProcessingController PPController;
         public PostProcessingController.DepthOfFieldSettings DefaultDofSettings;
-        public VariableJoystick moveVariableJoystick;
-        public VariableJoystick cameraVariableJoystick;
 
         public PlayerFreezeChangedEvent PlayerFreezeChanged = new PlayerFreezeChangedEvent();
 
@@ -183,13 +181,11 @@ namespace KnifePlayerController
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
             }
-
-            Look.LookRotation(Time.deltaTime, cameraVariableJoystick.Direction);
         }
 
         void FixedUpdate()
         {
-            // Look.LookRotation(Time.fixedDeltaTime);
+            Look.LookRotation(Time.fixedDeltaTime);
 
             if (controller.isGrounded)
             {
@@ -239,11 +235,8 @@ namespace KnifePlayerController
 
         void move()
         {
-             float h = Input.GetAxis(StrafeAxis);
-             float v = Input.GetAxis(ForwardAxis);
-
-          //  float h = moveVariableJoystick.Direction.x;
-          //  float v = moveVariableJoystick.Direction.y;
+            float h = Input.GetAxis(StrafeAxis);
+            float v = Input.GetAxis(ForwardAxis);
 
             if (freezeControl)
             {
@@ -298,14 +291,19 @@ namespace KnifePlayerController
                 isRunning = false;
             }
 
-            if (Input.GetKeyDown(KeyCode.LeftControl) && !freezeControl)
+            if(Input.GetKeyDown(KeyCode.LeftControl) && !freezeControl)
             {
                 isCrouching = true;
-
-                if (CrouchEvent != null)
+                
+                if(CrouchEvent != null)
                 {
                     CrouchEvent();
                 }
+            }
+
+            if(isCrouching)
+            {
+
             }
 
             if ((Input.GetKeyUp(KeyCode.LeftControl) && !freezeControl) || (Input.GetKey(KeyCode.LeftControl) && freezeControl && isCrouching))
@@ -476,13 +474,12 @@ namespace KnifePlayerController
                 this.camera = camera;
             }
 
-            public void LookRotation(float deltaTime, Vector2 direction)
+            public void LookRotation(float deltaTime)
             {
                 if (!Enabled)
                     return;
 
-                 LookRotation(Input.GetAxis(AxisXName) * XSensitivity * SensivityMultiplier, Input.GetAxis(AxisYName) * YSensitivity * SensivityMultiplier, deltaTime);
-               // LookRotation(direction.x * XSensitivity * SensivityMultiplier, direction.y * YSensitivity * SensivityMultiplier, deltaTime);
+                LookRotation(Input.GetAxis(AxisXName) * XSensitivity * SensivityMultiplier, Input.GetAxis(AxisYName) * YSensitivity * SensivityMultiplier, deltaTime);
             }
 
             public void LookRotation(float yRot, float xRot, float deltaTime)
